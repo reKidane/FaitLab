@@ -1,23 +1,17 @@
+# Fait Lab Website
 
-## Research Lab Website Design Template
+This is a simple, static research lab website built for the Fait Lab, focusing on dryland agriculture, viticulture, biotechnology, plant stress physiology, metabolomics, and sustainable crop improvement in arid environments.
 
-This is a research lab website template that can be used by university students / professors to create a simple website for showing and displaying their labs / research. 
 
-I built this for my brother years ago, and you can find his current site here: [University of Illinois Energy Transport Research Lab](http://etrl.mechanical.illinois.edu/)
+## Research Focus
+The Fait Lab investigates mechanisms of plant resilience to abiotic stresses (especially drought and salinity), grapevine physiology under climate extremes, secondary metabolism in crops, and network-based approaches (including machine learning) to improve dryland agriculture and viticulture.
 
-You can find a live view of the template using the link below:
 
-https://photonlines.github.io/Research-Lab-Website/
+## Built With
+- Twitter Bootstrap (v2.3.1) – for responsive layout and components  
+- blueimp Gallery (v1.3.0) – for the photo lightbox gallery  
 
-It was built using the libraries provided below:
-
-- [Twitter Bootstrap (v2.3.1)](https://github.com/twbs/bootstrap)
-- [blueimp Gallery (v1.3.0)](https://github.com/blueimp/Gallery)
-
-The stock photos used within the template are from [Unsplash.](https://unsplash.com/). 
-
-The CSS social buttons are from [Nick La.](http://webdesignerwall.com/tutorials/css-social-buttons)
 
 ## License
-
-The work is licensed under The MIT License.
+This work is licensed under The MIT License*
+You are free to fork, modify, and use this for your own academic/lab purposes.
