@@ -13,5 +13,5 @@ The Fait Lab investigates mechanisms of plant resilience to abiotic stresses (es
 
 
 ## License
-This work is licensed under The MIT License*
+This work is licensed under The MIT License
 You are free to fork, modify, and use this for your own academic/lab purposes.
