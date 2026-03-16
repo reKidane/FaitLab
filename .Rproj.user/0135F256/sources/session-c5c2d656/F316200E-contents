@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>People</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Fait Lab, Home, Ben-Gurion University of the Negev">
+      <meta name="author" content="">
+      <!-- Le styles -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="css/theme.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container-fluid">
+          <!-- <header class="jumbotron subhead" id="overview">-->
+            <!-- <p class="lead"> Ben-Gurion University of the Negev </p>-->
+           <!--  <h1>Fait Lab</h1>-->
+         </header>
+         <div class="masthead">
+            <div class="navbar">
+              
+              
+              
+<!-- Hero Banner with Background Image -->
+<section class="hero" style="
+  background-image: url('images/the grape.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20vh;
+  min-height: 200px;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;   /* ← Changed: aligns content to LEFT instead of center */
+  padding-left: 2%;              /* Small indent from left edge – change to 3% or 20px for closer to edge */
+">
+  <!-- Dark Overlay (keep or adjust alpha as before) -->
+  <div class="hero-overlay" style="
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  "></div>
+
+  <!-- Text Content – moved to left, no extra padding -->
+  <div class="hero-content" style="
+    position: relative;
+    z-index: 2;
+    padding: 0;                    /* ← Removed all padding */
+    margin-left: 0;                /* No left margin */
+    max-width: 50%;                /* Optional: prevents text from stretching too wide on large screens */
+    text-align: left;              /* ← Explicit left alignment */
+  ">
+    <h1 style="
+      font-size: 3.5rem;
+      margin: 0 0 10px 0;          /* Minimal bottom margin only */
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    ">Fait Lab</h1>
+    
+    <h2 style="
+      font-size: 1.8rem;
+      margin: 0;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    ">
+      Ben-Gurion University of the Negev, Sede Boqer Campus<br>
+      
+    </h2>
+    
+    <!-- Optional subtitle – keep or remove -->
+    <p style="
+      font-size: 1.3rem;
+      margin: 20px 0 0 0;
+    ">Research in Dryland Agriculture, Biotechnology & Sustainable Development</p>
+  </div>
+</section>
+
+
+            <div class="navbar">
+               <div class="navbar-inner">
+                  <div class="container-fluid">
+                     <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="#">People</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <div class="row-fluid">
+            <div class="span3 bs-docs-sidebar" id="navparent">
+               <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
+                  <li><a href="#principalinvestigator"> Principal Investigator </a></li>
+                  <li><a href="#technicians">Lab Technicians</a></li>
+                  <li><a href="#graduate">Graduate Students</a></li>
+                  <li><a href="#undergraduate">Former Students</a></li>
+                  <li><a href="#assistant">Lab Assistant</a></li>
+               </ul>
+            </div>
+            <div class="span8 offset1">
+               <section id="principalinvestigator">
+                  <div class="page-header">
+                     <h3>Principal Investigator</h3>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/Aaron.jpg" alt="Aaron Fait"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Aaron Fait</h4>
+                        <p>Professor of Plant Metabolomics and Viticulture</p>
+                        <p>PhD in Plant Sciences, Plant Metabolomics, 2004<br/>MSc in Plant Sciences, Biology, 1999<br/>BSc in Plant Sciences, Tel Aviv University, 1996</p>
+                        <p><b>Phone: </b>(+972) 08-6596837 </p>
+                        <p><b>Email: </b><a href="mailto:fait@bgu.ac.il">fait@bgu.ac.il</a></p>
+                        <p><b>Address: </b>Ben-Gurion University of the Negev, Sede Boqer Campus, 84990, Israel</p>
+                        <p><b><a href="https://in.bgu.ac.il/en/bidr/FAAB/Pages/fait.aspx">CV</a>, <a href="https://scholar.google.com/citations?user=4f9KtdAAAAAJ&hl=en&oi=ao">Google Scholar</a>, <a href="https://www.linkedin.com/in/aaron-fait-101310103/">Linkedin</a>, <a href="https://www.researchgate.net/profile/Aaron-Fait">ResearchGate</a></b></p>
+                     </div>
+                  </div>
+               </section>
+               <hr>
+               <section id="technicians">
+                  <div class="page-header">
+                     <h3>Lab Technicians</h3>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/Noga-Sikron.jpg" alt="Noga Sikron-Persi"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Noga Sikron-Persi</a></h4>
+                        <p>Dr. Noga is the Fait lab manager and assitant. Dr.Noga also serves as the central technical person for metabolomics unit and confocal microscopy imaging in the institute</p>
+                        <p><b>Email: </b><a href="mailto:sikron@bgu.ac.il">sikron@bgu.ac.il</a></p>
+                        <p><b>Address: </b>Ben-Gurion University of the Negev, Sede Boqer Campus, 84990, Israel</p>
+                     </div>
+                  <hr>
+               <section id="graduate">
+                  <div class="page-header">
+                     <h3>Graduate Students</h3>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/Kidane.jpg" alt="Kidanemaryam Reta"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Kidanemaryam Reta</a></h4>
+                        <p>Dr. Kidanemaryam Reta is a Postdoctoral Researcher in the Fait Lab at the French Associates Institute for Agriculture and Biotechnology of Drylands (BGU). His research focuses on plant metabolomics, where he integrates metabolic profiling with plant physiology to understand crop resilience in arid environments.
+                        With a background in plant breeding and genetic improvement, Dr. Reta currently utilizes mass spectrometry-based metabolomics to identify biomarkers for drought and salinity tolerance in crops such as sorghum, wheat, and grapevine. His work aims to decode the metabolic signatures of "climate-smart" germplasm to support sustainable agriculture in moisture-stressed regions. .</p>
+                        <p><b>Email: </b><a href="mailto:kidane.et@gmail.com">kidane.et@gmail.com</a></p>
+                        <p><b>Address: </b>Ben-Gurion University of the Negev, Sede Boqer Campus, 84990, Israel</p>
+                        <p><b><a href="https://www.bgu.ac.il/en/people/retakid/">CV/BGU</a>, <a href="https://scholar.google.com/citations?user=0C-PTFgAAAAJ&hl=en">Google Scholar</a>, <a href="https://www.linkedin.com/in/kidanemaryam/?originalSubdomain=il">Linkedin</a>, <a href="https://www.researchgate.net/profile/Kidanemaryam-Reta?ev=hdr_xprf">ResearchGate</a></b></p>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/Abhishek.jpg" alt="Abhishek Javali"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Abhishek Javali</a></h4>
+                        <p>Abhishek is an MSc student dealing with grapevine physiological and metabolic response to multi-ionic irrigation.</p>
+                        <p><b>Email: </b><a href="mailto:javaliabhishek284@gmail.com">javaliabhishek284@gmail.com</a></p>
+                        <p><b>Address: </b>Ben-Gurion University of the Negev, Sede Boqer Campus, 84990, Israel</p>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a href="https://unsplash.com/photos/nomivMNW07o" class="thumbnail">
+                        <img src="thumbs/madhura-mani.jpg" alt="Madhura Mani"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4><a href="https://unsplash.com/photos/nomivMNW07o">Madhura Mani</a></h4>
+                        <p>Madhura is an MSc student in the Fait lab studying how antique grapevine varieties responed to abotic stress.</p>
+                        <p><b>Email: </b><a href="mailto:madhuraias12@gmail.com">madhuraias12@gmail.com</a></p>
+                        <p><b>Address: </b>Ben-Gurion University of the Negev, Sede Boqer Campus, 84990, Israel</p>
+                     </div>
+                  </div>
+                  <hr>
+                  <section id="assistant">
+                  <div class="page-header">
+                     <h3>Lab Assistants</h3>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/Tania-Acuna.jpg" alt="Tania Acuna"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Tania Acuna</a></h4>
+                        <p>Tania Acuna is the Fait lab assitant in part time who is responsible in assiting lab research activities and experimental winery. </p>
+                        <p><b>Email: </b><a href="mailto:acunat@bgu.ac.il">acunat@bgu.ac.il</a></p>
+                        <p><b>Address: </b>Ben-Gurion University of the Negev, Sede Boqer Campus, 84990, Israel</p>
+                     </div>
+                  <hr>
+               </section>
+               <hr>
+               <section id="undergraduate">
+                  <div class="page-header">
+                     <h3>Former Students</h3>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a href="https://unsplash.com/photos/unr5ZqXXvqU" class="thumbnail">
+                        <img src="thumbs/Asfaw-Degu.jpg" alt="Asfaw Degu"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Asfaw Degu</h4>
+                        <p>Dr. Asfaw Degu is a plant scientist and biochemist specializing in crop resilience and horticultural quality. His research utilizes transcriptomics and metabolite profiling to understand how plants specifically Arabica coffee and grapevines adapt to environmental stressors like drought.
+                        With a PhD and postdoctoral experience from the Agricultural Research Organization (ARO) in Israel, Dr. Degu focuses on identifying the genetic and biochemical markers necessary to develop climate-resilient agriculture. His work also extends to improving seed germination and post-harvest quality in ornamental crops.</p>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/Noam-Reshef.jpg" alt="Noam Reshef"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Noam Reshef</h4>
+                        <p>Dr. Noam Reshef is a Principal Investigator at the Volcani Institute (ARO), leading the Table Grape Breeding Program. His research integrates metabolomics and transcriptomics to understand how environmental factors and genetics regulate fruit quality, specifically flavor and organic acid composition.
+                        Previously a postdoctoral fellow at Cornell University (VitisGen2 project), he holds a Ph.D. from Ben-Gurion University, where he studied the metabolic responses of wine grapes to desert conditions. His work aims to develop high-quality, resilient grape cultivars through advanced physiological and molecular breeding.</p>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/Uri-Hocberg.jpg" alt="Uri Hocberg"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Uri Hocberg</h4>
+                        <p>Dr. Uri Hochberg is a Principal Investigator at the Volcani Institute (ARO), specializing in plant hydraulics and drought physiology. His research focuses on the mechanisms of water transport, stomatal regulation, and xylem function, particularly in grapevines.
+                        By combining physiological monitoring with structural analysis, his lab develops sustainable irrigation strategies to improve crop resilience in arid environments. Dr. Hochberg earned his Ph.D. from Ben-Gurion University and conducted postdoctoral research at Cornell University and the University of Clermont Ferrand.</p>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/David-Toubiana.jpg" alt="David Toubiana"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>David Toubiana</h4>
+                        <p>Dr. David Toubiana is a researcher specializing in computational biology and plant metabolomics. He is known for developing advanced correlation-based network analysis and machine learning tools to map metabolic pathways in crops like tomatoes and potatoes. 
+                        His work focuses on integrating large-scale omics data to understand how plants respond to environmental stressors, such as drought and nitrogen deficiency. Dr. Toubiana completed his Ph.D. at Ben-Gurion University of the Negev and conducted research at the University of California, Davis, where he applied network biology to improve crop breeding and trait prediction. He is currently the CEO and Founder of BiolomiX, a company focused on molecular networks and AI in preclinical research. </p>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/Kelem-Alamrie.jpg" alt="Kelem Gashu Alamrie"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Kelem Gashu Alamrie</h4>
+                        <p>Dr. Kelem Gashu is a plant biologist and researcher specializing in plant physiology and metabolic flux analysis. His research focuses on the intersection of photorespiration and one-carbon (1C) metabolism, specifically how plants regulate metabolic networks under environmental stressors like heat and topo-climate variation. 
+                        Currently a postdoctoral researcher at Michigan State University, Dr. Gashu utilizes advanced isotopic labeling and high-resolution mass spectrometry to quantify carbon flux and metabolic responses in species such as Arabidopsis and grapevines (Vitis vinifera). 
+                        Dr. Gashu earned his Ph.D. from Ben-Gurion University of the Negev, where he studied the metabolism of berries in response to temerature variations. </p>
+                     </div>
+                  </div>
+                  </div>
+                  <hr>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/Pankaj-Verma.jpg" alt="Pankaj Verma"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Pankaj Verma</h4>
+                        <p>Dr. Pankaj Kumar Verma is a plant molecular biologist and postdoctoral researcher specializing in abiotic stress and plant metabolomics. His research focuses on the molecular mechanisms of heat and salt tolerance in crops, particularly wine grapes, using a combination of metagenomics and high-resolution mass spectrometry.
+                        Dr. Verma's work aims to identify metabolic biomarkers and genetic pathways that can be targeted to develop climate resilient agriculture. He earned his Ph.D. from the National Botanical Research Institute (NBRI) in India, where he investigated arsenic stress tolerance in rice, and has since conducted extensive research at the Jacob Blaustein Institutes for Desert Research at Ben Gurion University.</p>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="row-fluid">
+                     <div class="span3">
+                        <a class="thumbnail">
+                        <img src="thumbs/Dakshayani-Lokesh.jpg" alt="Dakshayani Lokesh"/>
+                        </a>
+                     </div>
+                     <div class="span9">
+                        <h4>Dakshayani Lokesh</h4>
+                        <p>Dakshayani was an MSc student in Fait lab and currently persuing PhD.</p>
+                     </div>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </div>
+      <footer id="footer">
+         <div class="container-fluid">
+            <div class="row-fluid">
+               <div class="span5">
+                  <h3>Contact Information</h3>
+                  <p><b>Office Hours: </b>Sunday-Thursday (8.00am - 5.00pm)</p>
+                  <p><b>Phone: </b>+97286596837</p>
+                  <p><b>Cell: </b>+97286596837</p>
+                  <a href="mailto:fait@bgu.ac.il">Email</a>
+               </div>
+               <div class="span2">
+                  <img src="thumbs/generic-logo.JPG" alt="Fait Lab Logo" style="max-width: 200px; height: auto;" class="img-responsive"/>
+               </div>
+               <div class="span5">
+                  <h3>Address</h3>
+                  <p>French Associates Institute for Agriculture & Biotechnology of Drylands<br>
+                     Blaustein Institutes for Desert Research, Ben-Gurion University of the Negev<br>
+                     Midreshet Ben Gurion, Sde Boker<br>
+                     Israel 8499000
+                  </p>
+                  <a href="https://maps.app.goo.gl/THDbeEdi3e9BvFJL7">Show Map</a>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <!-- Le javascript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+         $(document).ready(function() {
+             $(document.body).scrollspy({
+                 target: "#navparent"
+             });
+         });
+         
+      </script>
+   </body>
+</html>

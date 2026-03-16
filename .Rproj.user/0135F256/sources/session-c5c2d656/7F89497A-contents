@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Gallery</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Research Lab, Home, Ben-Gurion University of the Negev">
+      <meta name="author" content="">
+      <!-- Le styles -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="css/theme.css" rel="stylesheet">
+      <link href="css/blueimp-gallery.min.css" rel="stylesheet" >
+      <link href="css/blueimp-gallery-video.css" rel="stylesheet" >
+   </head>
+   <body>
+      <div class="container-fluid">
+          <!-- <header class="jumbotron subhead" id="overview">-->
+            <!-- <p class="lead"> Ben-Gurion University of the Negev </p>-->
+           <!--  <h1>Fait Lab</h1>-->
+         </header>
+         <div class="masthead">
+            <div class="navbar">
+              
+              
+              
+<!-- Hero Banner with Background Image -->
+<section class="hero" style="
+  background-image: url('images/the grape.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20vh;
+  min-height: 200px;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;   /* ← Changed: aligns content to LEFT instead of center */
+  padding-left: 2%;              /* Small indent from left edge – change to 3% or 20px for closer to edge */
+">
+  <!-- Dark Overlay (keep or adjust alpha as before) -->
+  <div class="hero-overlay" style="
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  "></div>
+
+  <!-- Text Content – moved to left, no extra padding -->
+  <div class="hero-content" style="
+    position: relative;
+    z-index: 2;
+    padding: 0;                    /* ← Removed all padding */
+    margin-left: 0;                /* No left margin */
+    max-width: 50%;                /* Optional: prevents text from stretching too wide on large screens */
+    text-align: left;              /* ← Explicit left alignment */
+  ">
+    <h1 style="
+      font-size: 3.5rem;
+      margin: 0 0 10px 0;          /* Minimal bottom margin only */
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    ">Fait Lab</h1>
+    
+    <h2 style="
+      font-size: 1.8rem;
+      margin: 0;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    ">
+      Ben-Gurion University of the Negev, Sede Boqer Campus<br>
+      
+    </h2>
+    
+    <!-- Optional subtitle – keep or remove -->
+    <p style="
+      font-size: 1.3rem;
+      margin: 20px 0 0 0;
+    ">Research in Dryland Agriculture, Biotechnology & Sustainable Development</p>
+  </div>
+</section>
+
+
+            <div class="navbar">
+               <div class="navbar-inner">
+                  <div class="container-fluid">
+                     <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="people.html">People</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li class="active"><a href="gallery.html">Gallery</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+            <div class="slides"></div>
+            <h3 class="title"> Gallery </h3>
+            <a class="prev">???</a>
+            <a class="next">???</a>
+            <a class="close">??</a>
+            <a class="play-pause"></a>
+            <ol class="indicator"></ol>
+         </div>
+         <div class="row-fluid">
+            <div class="span3 bs-docs-sidebar" id="navparent">
+               <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
+                  <li><a href="#fieldgallery"> Field Gallery </a></li>
+                  <li><a href="#labwinerygallery"> Lab and Winery Gallery </a></li>
+               </ul>
+            </div>
+            <div class="span8 offset1">
+               <section id="fieldgallery">
+                  <div class="page-header">
+                     <h3>Field Gallery</h3>
+                  </div>
+                  <div class="row-fluid">
+                     <ul class="thumbnails da-thumbs">
+                        <li class="span4">
+                           <a title="BGU Bord of Governor Meeting Vineyard Visit in the Campus 2023."  href="images/BGU-BOG-2023.jpg" class="thumbnail" >
+                           <img alt="" src="images/BGU-BOG-2023.jpg" style="auto">            
+                           </a>
+                           <p class="caption"> BGU Bord of Governor Meeting Vineyard Visit in the Campus 2023. </p>
+                        </li>
+                        <li class="span4">
+                           <a title="Experimental vineyard." href="images/vineyard.jpg" class="thumbnail" >
+                           <img alt="" src="images/vineyard.jpg" style="auto">
+                           </a>
+                           <p class="caption"> Experimental vineyard 2023 season. </p>
+                        </li>
+                        <li class="span4">
+                           <a title="Grapevine after budbreak ready for thinning." href="images/grapes_after_bud_break_2022.jpeg" class="thumbnail" >
+                           <img alt="" src="images/grapes_after_bud_break_2022.jpeg" style="auto">
+                           </a>
+                           <p class="caption"> Shoots ready for thinning season 2022. </p>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="row-fluid">
+                     <ul class="thumbnails">
+                        <li class="span4">
+                           <a href="images/micropam_2022.jpeg" class="thumbnail" title="Micropam measuring leaf chlorophyll flourescence continously.">
+                           <img alt="" src="images/micropam_2022.jpeg" style="auto">
+                           </a>
+                           <p class="caption"> Chlorophyll flourescence measurement using MicroPam during 2022 vintage. </p>
+                        </li>
+                        <li class="span4">
+                           <a href="images/Veraison onset_2022.jpeg" class="thumbnail" title="Grapes intering to veraison during 2022 vintage">
+                           <img alt="" src="images/Veraison onset_2022.jpeg" style="auto">
+                           </a>
+                           <p class="caption"> Onset of veraison during 2022 season. </p>
+                        </li>
+                        <li class="span4">
+                           <a href="images/Kidane_in_the_vineyard.jpg" class="thumbnail" title="Kidane in the vineyard monitoring the vine.">
+                           <img alt="" src="images/Kidane_in_the_vineyard.jpg" style="auto">
+                           </a>
+                           <p class="caption"> Touring and monitoring the vine is throughout the season. </p>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="row-fluid">
+                     <ul class="thumbnails">
+                        <li class="span4">
+                           <a href="images/harvestors 2023.jpg" class="thumbnail" title="Closing the 2023 vintage with super harvesters.">
+                           <img alt="" src="images/harvestors 2023.jpg" style="auto">
+                           </a>
+                           <p class="caption"> Closing the 2023 vintage with the volunteer super harvestors </p>
+                        </li>
+                        <li class="span4">
+                           <a href="images/mature grape 2023.jpg" class="thumbnail" title="Grapes during rippening time season 2023">
+                           <img alt="" src="images/mature grape 2023.jpg" style="auto">
+                           </a>
+                           <p class="caption"> Rippening time during the year 2023 </p>
+                        </li>
+                        <li class="span4">
+                           <a href="images/Combined stress affected vine 2023 season.jpg" class="thumbnail" title="A vine affected by combined salinity and drought stress during the year 2023.">
+                           <img alt="" src="images/Combined stress affected vine 2023 season.jpg" style="auto">
+                           </a>
+                           <p class="caption"> Combined salinity and water deficit stress affected grapevine ended up with premature berry desiccation and early leaf shedding. </p>
+                        </li>
+                     </ul>
+                  </div>
+               </section>
+               <section id="labwinerygallery">
+                  <div class="page-header">
+                     <h3>Lab and Winery Gallery</h3>
+                  </div>
+                  <div class="row-fluid">
+                     <ul class="thumbnails da-thumbs">
+                        <li class="span4">
+                           <a title="UAV-setups and arieal view of experimental vineyard"  href="images/UAV-setup and arieal field view.jpg" class="thumbnail" >
+                           <img alt="" src="images/UAV-setup and arieal field view.jpg" style="auto">            
+                           </a>
+                           <p class="caption"> Remote sensing study showing drone setup for flight and arieal UAV view of the vineyard </p>
+                        </li>
+                        <li class="span4">
+                           <a title="Higher offical guest vist the experimental winery." href="images/winery visit by higher offical guests.jpg" class="thumbnail" >
+                           <img alt="" src="images/winery visit by higher offical guests.jpg" style="auto">
+                           </a>
+                           <p class="caption"> Guest vist the experimental winery </p>
+                        </li>
+                        <li class="span4">
+                           <a title="wine experiment in the winery 2023 vintage." href="images/wine experiment1.jpg" class="thumbnail" >
+                           <img alt="" src="images/wine experiment1.jpg" style="auto">
+                           </a>
+                           <p class="caption"> Wine experiment in the winery set up during the 2023 vintage </p>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="row-fluid">
+                     <ul class="thumbnails">
+                        <li class="span4">
+                           <a title="The green canopy of the graopevien during the year 2023"  href="images/the vine.jpg" class="thumbnail" >
+                           <img alt="" src="images/the vine.jpg" style="auto">            
+                           </a>
+                           <p class="caption"> The green canpy vine during the year 2023 </p>
+                        </li>
+                        <li class="span4">
+                           <a title="wine pressing and fermentation." href="images/wine pressing.jpg" class="thumbnail" >
+                           <img alt="" src="images/wine pressing.jpg" style="auto">
+                           </a>
+                           <p class="caption"> The fermented wine being pressed to be ready for malolactic fermentation </p>
+                        </li>
+                        <li class="span4">
+                           <a title="Leaf sampling for metabolomics analysis during 2023 season." href="images/leaf sampling.jpg" class="thumbnail" >
+                           <img alt="" src="images/leaf sampling.jpg" style="auto">
+                           </a>
+                           <p class="caption"> Leaf sampling for metabolite profiling during the 2023 season </p>
+                        </li>
+                     </ul>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </div>
+      <footer id="footer">
+         <div class="container-fluid">
+            <div class="row-fluid">
+               <div class="span5">
+                  <h3>Contact Information</h3>
+                  <p><b>Office Hours: </b>Sunday-Thursday (8.00am - 5.00pm)</p>
+                  <p><b>Phone: </b>+97286596837</p>
+                  <p><b>Cell: </b>+97286596837</p>
+                  <a href="mailto:fait@bgu.ac.il">Email</a>
+               </div>
+               <div class="span2">
+                  <img src="thumbs/generic-logo.JPG" alt="Fait Lab Logo" style="max-width: 200px; height: auto;" class="img-responsive"/>
+               </div>
+               <div class="span5">
+                  <h3>Address</h3>
+                  <p>French Associates Institute for Agriculture & Biotechnology of Drylands<br>
+                     Blaustein Institutes for Desert Research, Ben-Gurion University of the Negev<br>
+                     Midreshet Ben Gurion, Sde Boker<br>
+                     Israel 8499000
+                  </p>
+                  <a href="https://maps.app.goo.gl/THDbeEdi3e9BvFJL7">Show Map</a>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <!-- Le javascript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <!--<script src="js/jquery-1.9.1.min.js"></script>-->
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/blueimp-gallery.min.js"></script>
+      <script>
+         $(document).ready(function() {
+            $(document.body).scrollspy({
+             target: "#navparent"
+          });
+         });
+         
+         document.getElementById('fieldgallery').onclick = function (event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+              link = target.src ? target.parentNode : target,
+              options = {index: link, event: event},
+              links = this.getElementsByTagName('a');
+          blueimp.Gallery(links, options);
+         };
+         
+         document.getElementById('labwinerygallery').onclick = function (event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+              link = target.src ? target.parentNode : target,
+              options = {index: link, event: event},
+              links = this.getElementsByTagName('a');
+          blueimp.Gallery(links, options);
+         };        
+      </script>  
+   </body>
+</html>
