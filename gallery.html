@@ -12,6 +12,25 @@
       <link href="css/theme.css" rel="stylesheet">
       <link href="css/blueimp-gallery.min.css" rel="stylesheet" >
       <link href="css/blueimp-gallery-video.css" rel="stylesheet" >
+      
+      <style>
+
+/* Remove default browser spacing */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Allow hero banner to span entire screen width */
+.hero {
+    <!-- width: 100vw;-->
+    margin-left: calc(-50vw + 50%);
+    padding-left: 2vw;
+}
+
+</style>
+
+
    </head>
    <body>
       <div class="container-fluid">
@@ -23,21 +42,20 @@
             <div class="navbar">
               
               
-              
 <!-- Hero Banner with Background Image -->
 <section class="hero" style="
   background-image: url('images/the grape.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 20vh;
-  min-height: 200px;
+  height: 15vh;
+  min-height: 150px;
   position: relative;
   color: white;
   display: flex;
   align-items: center;
   justify-content: flex-start;   <!--Changed: aligns content to LEFT instead of center -->
-  padding-left: 2%;              <!--Small indent from left edge ??? change to 3% or 20px for closer to edge-->
+  <!--padding-left: 200px;              <!--Small indent from left edge change to 3% or 20px for closer to edge-->
 ">
   <!-- Dark Overlay (keep or adjust alpha as before) -->
   <div class="hero-overlay" style="
@@ -47,14 +65,14 @@
     z-index: 1;
   "></div>
 
-  <!-- Text Content ??? moved to left, no extra padding -->
+  <!-- Text Content moved to left, no extra padding -->
   <div class="hero-content" style="
     position: relative;
     z-index: 2;
     padding: 0;                     <!-- Removed all padding -->
-    margin-left: 0;                 <!-- No left margin -->
+    margin-left: 8%;                 <!-- No left margin -->
     max-width: 50%;                 <!-- Optional: prevents text from stretching too wide on large screens -->
-    text-align: left;               <!-- ¡û Explicit left alignment -->
+    text-align: left;               <!-- Explicit left alignment -->
   ">
     <h1 style="
       font-size: 3.5rem;
@@ -78,6 +96,7 @@
     ">Research in Dryland Agriculture, Biotechnology & Sustainable Development</p>
   </div>
 </section>
+
 
 
 

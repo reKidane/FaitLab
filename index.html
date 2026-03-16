@@ -10,6 +10,26 @@
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
       <link href="css/theme.css" rel="stylesheet">
+      
+      
+      <style>
+
+/* Remove default browser spacing */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Allow hero banner to span entire screen width */
+.hero {
+    <!-- width: 100vw;-->
+    margin-left: calc(-50vw + 50%);
+    padding-left: 2vw;
+}
+
+</style>
+
+
    </head>
    <body>
       <div class="container-fluid">
@@ -27,14 +47,14 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 20vh;
-  min-height: 200px;
+  height: 15vh;
+  min-height: 150px;
   position: relative;
   color: white;
   display: flex;
   align-items: center;
   justify-content: flex-start;   <!--Changed: aligns content to LEFT instead of center -->
-  padding-left: 2%;              <!--Small indent from left edge ??? change to 3% or 20px for closer to edge-->
+  <!--padding-left: 200px;              <!--Small indent from left edge change to 3% or 20px for closer to edge-->
 ">
   <!-- Dark Overlay (keep or adjust alpha as before) -->
   <div class="hero-overlay" style="
@@ -44,14 +64,14 @@
     z-index: 1;
   "></div>
 
-  <!-- Text Content ??? moved to left, no extra padding -->
+  <!-- Text Content moved to left, no extra padding -->
   <div class="hero-content" style="
     position: relative;
     z-index: 2;
     padding: 0;                     <!-- Removed all padding -->
-    margin-left: 0;                 <!-- No left margin -->
+    margin-left: 8%;                 <!-- No left margin -->
     max-width: 50%;                 <!-- Optional: prevents text from stretching too wide on large screens -->
-    text-align: left;               <!-- ¡û Explicit left alignment -->
+    text-align: left;               <!-- Explicit left alignment -->
   ">
     <h1 style="
       font-size: 3.5rem;
@@ -96,7 +116,7 @@
          <div class="row-fluid">
             <div class="span12">
                <div id="main-carousel" class="carousel slide">
-                  <div class="carousel-inner">
+                  <div class="carousel-inner"> 
                      <div class="item active">
                         <img src="images/Midreshet Ben Gurion Canyon.jpg" class="carousel-image" alt="">                      
                         <div class="carousel-caption">
@@ -107,29 +127,29 @@
                      </div>
                      <div class="item">
                         <img src="images/ramon vineyard.jpg" class="carousel-image" alt="">
-                        <div class="The Ramon vineyard in the heart of the Negev desert">
-                           <h4>Ramon Vineyard</h4>
+                        <div class="carousel-caption">
+                           <h4>Ramon Vineyard in the heart of the Negev desert</h4>
                            <p></p>
                         </div>
                      </div>
                      <div class="item">
-                        <img src="images/Avdat ruin.jpg" class="carousel-image" alt="">
-                        <div class="Avdat national park ancient city ruin">
+                        <img src="images/Avdat1.jpg" class="carousel-image" alt="">
+                        <div class="carousel-caption">
                            <h4>Avdat National park ancient city ruin among the 5 ruins</h4>
                            <p></p>
                         </div>
                      </div>
                      <div class="item">
                         <img src="images/wine_montage.jpg" class="carousel-image" style = "auto" alt="">
-                        <div class="Routine wine tasting time">
-                           <h4>Wine tasting</h4>
+                        <div class="carousel-caption">
+                           <h4>Routine wine tasting time</h4>
                            <p></p>
                            </div>
                      </div>
                      <div class="item">
                         <img src="images/the grape.jpg" class="carousel-image" alt="">
-                        <div class="Grape bunch half view">
-                           <h4>The mark for scaling fruit quality</h4>
+                        <div class="carousel-caption">
+                           <h4>The grape bunch</h4>
                            <p></p>
                         </div>
                      </div>
