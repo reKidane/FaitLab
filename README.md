@@ -8,8 +8,12 @@ The Fait Lab investigates mechanisms of plant resilience to abiotic stresses (es
 
 
 ## Built With
-- Twitter Bootstrap (v2.3.1) – for responsive layout and components  
-- blueimp Gallery (v1.3.0) – for the photo lightbox gallery  
+- Plain HTML, CSS and JavaScript (no framework), so pages load fast and render the same in Safari, Chrome and Firefox
+- `assets/css/site.css`: all styles
+- `assets/js/site.js`: mobile menu, home slideshow, section index and photo viewer
+- `assets/img/`: web-sized copies of the photos (file names without spaces, so links also work on GitHub Pages)
+
+To add a photo, put a resized copy (about 1800 px wide, JPEG) in `assets/img/` and reference it from the page.
 
 
 ## License

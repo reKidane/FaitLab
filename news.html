@@ -1,325 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <title>News</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Research Lab, Home, Ben-Gurion University of the Negev">
-      <meta name="author" content="">
-      <!-- Le styles -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-      <link href="css/theme.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      
-      <style>
-
-<style>
-/* Remove default browser spacing */
-body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Base font size for all body text (paragraphs) */
-/* This keeps headings and navbar untouched */
-p, 
-.marketing p, 
-.feature-item p, 
-.carousel-caption p, 
-#footer p {
-    font-size: 1.1rem;     /* Good default for desktop */
-    line-height: 1.75;     /* Better readability */
-}
-
-/* === MOBILE OPTIMIZATION === */
-/* Make paragraphs noticeably larger on phones and small tablets */
-@media (max-width: 767px) {
-    p, 
-    .marketing p, 
-    .feature-item p, 
-    .carousel-caption p, 
-    #footer p {
-        font-size: 1.25rem !important;   /* Bigger on mobile */
-        line-height: 1.8;
-    }
-    
-    /* Optional: add a bit more space between paragraphs on mobile */
-    p {
-        margin-bottom: 1.2rem;
-    }
-}
-
-/* Allow hero banner to span entire screen width */
-.hero {
-    margin-left: calc(-50vw + 50%);
-    padding-left: 2vw;
-}
-</style>
-
-
-   </head>
-   <body>
-      <div class="container-fluid">
-          <!-- <header class="jumbotron subhead" id="overview">-->
-            <!-- <p class="lead"> Ben-Gurion University of the Negev </p>-->
-           <!--  <h1>Fait Lab</h1>-->
-         </header>
-         <div class="masthead">
-            <div class="navbar">
-              
-              
-<!-- Hero Banner with Background Image -->
-<section class="hero" style="
-  background-image: url('images/the grape.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 15vh;
-  min-height: 150px;
-  position: relative;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;   <!--Changed: aligns content to LEFT instead of center -->
-  <!--padding-left: 200px;              <!--Small indent from left edge change to 3% or 20px for closer to edge-->
-">
-  <!-- Dark Overlay (keep or adjust alpha as before) -->
-  <div class="hero-overlay" style="
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  "></div>
-
-  <!-- Text Content moved to left, no extra padding -->
-  <div class="hero-content" style="
-    position: relative;
-    z-index: 2;
-    padding: 0;                     <!-- Removed all padding -->
-    margin-left: 8%;                 <!-- No left margin -->
-    max-width: 50%;                 <!-- Optional: prevents text from stretching too wide on large screens -->
-    text-align: left;               <!-- Explicit left alignment -->
-  ">
-    <h1 style="
-      font-size: 3.5rem;
-      margin: 0 0 10px 0;          <!-- Minimal bottom margin only-->
-      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
-    ">Fait Lab</h1>
-    
-    <h2 style="
-      font-size: 1.8rem;
-      margin: 0;
-      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
-    ">
-      Ben-Gurion University of the Negev, Sede Boqer Campus<br>
-      
-    </h2>
-    
-    <!-- Optional subtitle ??? keep or remove -->
-    <p style="
-      font-size: 1rem;
-      margin: 10px 0 0 0;
-    ">Research in Dryland Agriculture, Viticulture, Biotechnology & Sustainable Development</p>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>News | Fait Lab</title>
+<meta name="description" content="Fait Lab in the news, Ben-Gurion University of the Negev">
+<meta name="theme-color" content="#3f1022">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fait Lab">
+<meta property="og:title" content="News | Fait Lab">
+<meta property="og:description" content="Fait Lab in the news, Ben-Gurion University of the Negev">
+<link rel="icon" href="assets/img/t-generic-logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Fait Lab home">
+      <img src="assets/img/t-generic-logo.jpg" width="40" height="40" alt="">
+      <span class="brand-text"><span class="brand-name">Fait Lab</span><span class="brand-sub">Ben-Gurion University of the Negev</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li><li><a href="people.html">People</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="news.html" aria-current="page">News</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section class="banner" style="background-image:url('assets/img/the-grape.jpg')">
+  <div class="wrap">
+    <span class="eyebrow">News</span>
+    <h1>Fait Lab</h1>
+    <p class="banner-uni">Ben-Gurion University of the Negev, Sede Boqer Campus</p>
+    <p class="banner-tag">Research in Dryland Agriculture, Viticulture, Biotechnology &amp; Sustainable Development</p>
   </div>
 </section>
-
-
-
-
-            <div class="navbar">
-               <div class="navbar-inner">
-                  <div class="container-fluid">
-                     <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="people.html">People</a></li>
-                        <li><a href="research.html">Research</a></li>
-                        <li><a href="publications.html">Publications</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li class="active"><a href="#">News</a></li>
-                        <li><a href="teaching.html">Teaching</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <hr>
-         <div id="media">
-            <div class="row-fluid post_row">
-               <div class="span6 post">
-                  <div class="text">
-                     <h5><a href="https://www.euronews.com/2021/01/18/the-future-of-wine-israel-s-desert-vineyards-show-us-how-to-cope-with-a-changing-climate">The future of wine: Israel's desert vineyards show us how to cope with a changing climate</a></h5>
-                     <br/>
-                     <span class="date">January 18, 2021</span>
-                  </div>
-                  <div class="img">
-                     <a href="https://www.euronews.com/2021/01/18/the-future-of-wine-israel-s-desert-vineyards-show-us-how-to-cope-with-a-changing-climate">
-                     <img src="images/Aaron EuroNews.jpg" alt="The future of wine: Israel¡¯s desert vineyards show us how to cope with a changing climate">
-                     </a>
-                  </div>
-                  <div class="text">
-                     <p> Overcoming harsh growing conditions, desert winemakers have some lessons for Europe's warming wineries.
-                     In the Negev Desert, the sun beams down onto desolate earth. The air is dry and the land arid. 
-                     But up on a mountain ridge near the town of Mitzpe Ramon, rows of vines sprout from the scorched soil - the only glimmer of green in a barren landscape. </p>
-                  </div>
-                  <div class="author_box">
-                     <h6>By Marcello Rossi</h6>
-                  </div>
-               </div>
-               <div class="span6 post">
-                  <div class="text">
-                     <h5><a href="https://www.jlinkwineguide.com/post/winemakers-in-warming-climates-look-to-the-negev">Winemakers in Warming Climates Look to the Negev.</a></h5>
-                     <br/>
-                     <span class="date">March 16, 2023</span>                        
-                  </div>
-                  <div class="img">
-                     <a href="https://www.jlinkwineguide.com/post/winemakers-in-warming-climates-look-to-the-negev">
-                     <img src="images/grapes growing in the negev desert.jpg" alt="Winemakers in Warming Climates Look to the Negev.">
-                     </a>
-                  </div>
-                  <div class="text">
-                     <p>"The Negev desert can be used as a model system for climate change scenarios and desertification scenarios," Professor Fait explained. </p>
-                     <br/>
-                     <br/>
-                  </div>
-                  <div class="author_box">
-                     <h6>By Joshua E. London</h6>
-                  </div>
-               </div>
-            </div>
-            <div class="row-fluid post_row">
-               <div class="span6 post">
-                  <div class="text">
-                     <h5><a href="https://www.jpost.com/food-recipes/article-884896">BGU and the Rise of Growing World Class Wines in the Negev</a></h5>
-                     <span class="date">February 18, 2026</span>
-                  </div>
-                  <div class="img">
-                     <a href="https://americansforbgu.org/negev-desert-wines">
-                     <img src="images/BGU in the news.jpeg" alt="BGU and the Rise of Growing World Class Wines in the Negev">
-                     </a>
-                  </div>
-                  <div class="text">
-                     <p> Desert & Water Research, Sustainability & Climate Change.</p>
-                     <br/>
-                     <br/>
-                  </div>
-                  <div class="author_box">
-                     <h6>By ADAM MONTEFIORE</h6>
-                  </div>
-               </div>
-               <div class="span6 post">
-                  <div class="text">
-                     <h5><a href="https://www.nytimes.com/2019/09/21/climate/wine-climate-change-israel.html">The Future of Wine: Very, Very Dry - The New York Times.</a></h5>
-                     <span class="date">September 21, 2019</span>
-                  </div>
-                  <div class="img">
-                     <a href="https://amyyeewrites.com/2019/09/23/the-future-of-wine-very-very-dry/">
-                     <img src="images/israel-wine.jpg" alt="The Future of Wine: Very, Very Dry - The New York Times">
-                     </a>
-                  </div>
-                  <div class="text">
-                     <p>This is not a desert apparition. It is a research vineyard, where scientists are studying how grapes can best grow in this harsh environment.</p>
-                  </div>
-                  <div class="author_box">
-                     <h6>By Amy Yee</h6>
-                  </div>
-               </div>
-            </div>
-            <div class="row-fluid post_row">
-               <div class="span6 post">
-                  <div class="text">
-                     <h5><a href="https://whyy.org/segments/wine-grapes-grow-again-in-israels-negev-desert/">Wine grapes grow again in Israel's Negev desert</a></h5>
-                     <br/>
-                     <span class="date">July 26, 2019</span>
-                  </div>
-                  <div class="img">
-                     <a href="https://whyy.org/segments/wine-grapes-grow-again-in-israels-negev-desert/">
-                     <img src="images/wine in the negev.jpg" alt="Wine grapes grow again in Israel¡¯s Negev desert">
-                     </a>
-                  </div>
-                  <div class="text">
-                     <p>"What do you think is a challenge to growing grapes in a desert environment?" he asked. "Water? The Nabateans didn't have water, and still they were making a lot of wine here."
-                     The Nabateans were a nomadic tribe that lived in this area about 2,500 years ago. They built stonewalls or terraces to capture what little rain fell during rare downpours. 
-                     That way, the water was absorbed by the ground instead of bouncing off of the tough, salty soil.</p>
-                     <br/>
-                  </div>
-                  <div class="author_box">
-                     <h6>By Susan Phillips</h6>
-                  </div>
-               </div>
-               <div class="span6 post">
-                  <div class="text">
-                     <h5><a href="https://www.jpost.com/archaeology/article-868940">Negev grape revival brings ancient vineyards back to life</a></h5>
-                     <br/>
-                     <span class="date">September 29, 2025</span>                     
-                  </div>
-                  <div class="img">
-                     <a href="https://www.jpost.com/archaeology/article-868940">
-                     <img src="images/ancient man transporting wine.jpeg" alt="Negev grape revival brings ancient vineyards back to life">
-                     </a>
-                  </div>
-                  <div class="text">
-                     <p> This is an archaeological-tourism initiative led by the Israel Nature and Parks Authority, taking place as part of the Heritage Seeds Vineyard project in southern Israel.
-                     Ancient grape varieties discovered in archaeological excavations in the Negev planted in the Shivta National Park, in a new vineyard plot currently being established among the remains of ancient Byzantine terraces.
-                     The ancient varieties are aslo currently planted in the Greenhouse to study how they are coping abiotic stress in the BGU Sde Boker campus by Fait lab.</p>
-                     <br/>
-                  </div>
-                  <div class="author_box">
-                     <h6>By WALLA!</h6>
-                  </div>
-               </div>
-            </div>
-         </div>
+<main id="main">
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><div><span class="kicker">Press coverage</span><h2>The lab in the news</h2></div></div>
+    <div class="card-grid two">
+      <article class="card">
+  <a class="card-media" href="https://www.jpost.com/food-recipes/article-884896" tabindex="-1" aria-hidden="true"><img src="assets/img/bgu-in-the-news.jpg" width="225" height="225" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">February 18, 2026</div>
+    <h3><a href="https://www.jpost.com/food-recipes/article-884896">BGU and the Rise of Growing World Class Wines in the Negev</a></h3>
+    <p>Desert &amp; Water Research, Sustainability &amp; Climate Change.</p>
+    <div class="card-foot"><span>By Adam Montefiore</span><a class="more" href="https://www.jpost.com/food-recipes/article-884896">Read &rarr;</a></div>
+  </div>
+</article><article class="card">
+  <a class="card-media" href="https://www.jpost.com/archaeology/article-868940" tabindex="-1" aria-hidden="true"><img src="assets/img/ancient-man-transporting-wine-sm.jpg" srcset="assets/img/ancient-man-transporting-wine-sm.jpg 900w, assets/img/ancient-man-transporting-wine.jpg 1280w" sizes="(max-width: 640px) 100vw, 580px" width="1280" height="720" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">September 29, 2025</div>
+    <h3><a href="https://www.jpost.com/archaeology/article-868940">Negev grape revival brings ancient vineyards back to life</a></h3>
+    <p>This is an archaeological-tourism initiative led by the Israel Nature and Parks Authority, taking place as part of the Heritage Seeds Vineyard project in southern Israel. Ancient grape varieties discovered in archaeological excavations in the Negev were planted in the Shivta National Park, in a new vineyard plot currently being established among the remains of ancient Byzantine terraces. The ancient varieties are also currently planted in the greenhouse at the BGU Sde Boker campus, where the Fait lab studies how they cope with abiotic stress.</p>
+    <div class="card-foot"><span>By Walla!</span><a class="more" href="https://www.jpost.com/archaeology/article-868940">Read &rarr;</a></div>
+  </div>
+</article><article class="card">
+  <a class="card-media" href="https://www.jlinkwineguide.com/post/winemakers-in-warming-climates-look-to-the-negev" tabindex="-1" aria-hidden="true"><img src="assets/img/grapes-growing-in-the-negev-desert-sm.jpg" srcset="assets/img/grapes-growing-in-the-negev-desert-sm.jpg 900w, assets/img/grapes-growing-in-the-negev-desert.jpg 940w" sizes="(max-width: 640px) 100vw, 580px" width="940" height="627" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">March 16, 2023</div>
+    <h3><a href="https://www.jlinkwineguide.com/post/winemakers-in-warming-climates-look-to-the-negev">Winemakers in Warming Climates Look to the Negev.</a></h3>
+    <p>&quot;The Negev desert can be used as a model system for climate change scenarios and desertification scenarios,&quot; Professor Fait explained.</p>
+    <div class="card-foot"><span>By Joshua E. London</span><a class="more" href="https://www.jlinkwineguide.com/post/winemakers-in-warming-climates-look-to-the-negev">Read &rarr;</a></div>
+  </div>
+</article><article class="card">
+  <a class="card-media" href="https://www.euronews.com/2021/01/18/the-future-of-wine-israel-s-desert-vineyards-show-us-how-to-cope-with-a-changing-climate" tabindex="-1" aria-hidden="true"><img src="assets/img/aaron-euronews.jpg" width="750" height="422" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">January 18, 2021</div>
+    <h3><a href="https://www.euronews.com/2021/01/18/the-future-of-wine-israel-s-desert-vineyards-show-us-how-to-cope-with-a-changing-climate">The future of wine: Israel&#x27;s desert vineyards show us how to cope with a changing climate</a></h3>
+    <p>Overcoming harsh growing conditions, desert winemakers have some lessons for Europe&#x27;s warming wineries. In the Negev Desert, the sun beams down onto desolate earth. The air is dry and the land arid. But up on a mountain ridge near the town of Mitzpe Ramon, rows of vines sprout from the scorched soil, the only glimmer of green in a barren landscape.</p>
+    <div class="card-foot"><span>By Marcello Rossi</span><a class="more" href="https://www.euronews.com/2021/01/18/the-future-of-wine-israel-s-desert-vineyards-show-us-how-to-cope-with-a-changing-climate">Read &rarr;</a></div>
+  </div>
+</article><article class="card">
+  <a class="card-media" href="https://www.nytimes.com/2019/09/21/climate/wine-climate-change-israel.html" tabindex="-1" aria-hidden="true"><img src="assets/img/israel-wine-sm.jpg" srcset="assets/img/israel-wine-sm.jpg 900w, assets/img/israel-wine.jpg 1800w" sizes="(max-width: 640px) 100vw, 580px" width="1800" height="1149" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">September 21, 2019</div>
+    <h3><a href="https://www.nytimes.com/2019/09/21/climate/wine-climate-change-israel.html">The Future of Wine: Very, Very Dry - The New York Times.</a></h3>
+    <p>This is not a desert apparition. It is a research vineyard, where scientists are studying how grapes can best grow in this harsh environment.</p>
+    <div class="card-foot"><span>By Amy Yee</span><a class="more" href="https://www.nytimes.com/2019/09/21/climate/wine-climate-change-israel.html">Read &rarr;</a></div>
+  </div>
+</article><article class="card">
+  <a class="card-media" href="https://whyy.org/segments/wine-grapes-grow-again-in-israels-negev-desert/" tabindex="-1" aria-hidden="true"><img src="assets/img/wine-in-the-negev.jpg" width="768" height="471" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">July 26, 2019</div>
+    <h3><a href="https://whyy.org/segments/wine-grapes-grow-again-in-israels-negev-desert/">Wine grapes grow again in Israel&#x27;s Negev desert</a></h3>
+    <p>&quot;What do you think is a challenge to growing grapes in a desert environment?&quot; he asked. &quot;Water? The Nabateans didn&#x27;t have water, and still they were making a lot of wine here.&quot; The Nabateans were a nomadic tribe that lived in this area about 2,500 years ago. They built stonewalls or terraces to capture what little rain fell during rare downpours. That way, the water was absorbed by the ground instead of bouncing off of the tough, salty soil.</p>
+    <div class="card-foot"><span>By Susan Phillips</span><a class="more" href="https://whyy.org/segments/wine-grapes-grow-again-in-israels-negev-desert/">Read &rarr;</a></div>
+  </div>
+</article>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2>Contact Information</h2>
+        <p><b>Office Hours:</b> Sunday-Thursday (8.00am - 5.00pm)</p>
+        <p><b>Phone:</b> <a href="tel:+97286596837">+97286596837</a></p>
+        <p><b>Email:</b> <a href="mailto:fait@bgu.ac.il">fait@bgu.ac.il</a></p>
       </div>
-      <footer id="footer">
-         <div class="container-fluid">
-            <div class="row-fluid">
-               <div class="span5">
-                  <h3>Contact Information</h3>
-                  <p><b>Office Hours: </b>Sunday-Thursday (8.00am - 5.00pm)</p>
-                  <p><b>Phone: </b>+97286596837</p>
-                  <p><b>Cell: </b>+97286596837</p>
-                  <a href="mailto:fait@bgu.ac.il">Email</a>
-               </div>
-               <div class="span2">
-                  <img src="thumbs/generic-logo.JPG" alt="Fait Lab Logo" style="max-width: 200px; height: auto;" class="img-responsive"/>
-               </div>
-               <div class="span5">
-                  <h3>Address</h3>
-                  <p>French Associates Institute for Agriculture & Biotechnology of Drylands<br>
-                     Blaustein Institutes for Desert Research, Ben-Gurion University of the Negev<br>
-                     Midreshet Ben Gurion, Sde Boker<br>
-                     Israel 8499000
-                  </p>
-                  <a href="https://maps.app.goo.gl/THDbeEdi3e9BvFJL7">Show Map</a>
-               </div>
-            </div>
-            <!-- Single Line Credits - Fixed Encoding -->
-            <div class="row-fluid" style="margin-top: 40px; border-top: 1px solid #ddd; padding-top: 25px;">
-               <div class="span12 text-center">
-                  <p style="margin: 0; font-size: 0.92rem; color: #666;">
-                     &copy; Aaron Fait [All rights reserved] &middot; 
-                     Designed using Bootstrap 4.0 &middot; 
-                     Hosted on GitHub <i class="fa fa-github" style="vertical-align: middle;"></i> &middot; 
-                     Maintained by the lab &middot; 
-                     Design: HTML5 UP
-                  </p>
-               </div>
-            </div>
-      </footer>
-
-      <!-- Le javascript
-         ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="js/jquery-1.9.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script>
-         $(document).ready(function() {
-             $(document.body).scrollspy({
-                 target: "#navparent"
-             });
-         });
-      </script>
-   </body>
+      <div class="footer-logo">
+        <img src="assets/img/t-generic-logo.jpg" width="128" height="128" alt="Fait Lab logo: From the Desert to the Bottle" loading="lazy">
+      </div>
+      <div>
+        <h2>Address</h2>
+        <p>French Associates Institute for Agriculture &amp; Biotechnology of Drylands<br>
+        Blaustein Institutes for Desert Research, Ben-Gurion University of the Negev<br>
+        Midreshet Ben Gurion, Sde Boker<br>
+        Israel 8499000</p>
+        <p class="footer-links"><a href="https://maps.app.goo.gl/THDbeEdi3e9BvFJL7">Show Map</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; Aaron Fait [All rights reserved] &middot; Hosted on GitHub <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> &middot; Maintained by the lab
+    </div>
+  </div>
+</footer>
+<script src="assets/js/site.js" defer></script>
+</body>
 </html>

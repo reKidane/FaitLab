@@ -1,308 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <title>Research</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Research Lab, Home, Ben-Gurion University of the Negev">
-      <meta name="author" content="">
-      <!-- Le styles -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-      <link href="css/theme.css" rel="stylesheet">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-<style>
-/* Remove default browser spacing */
-body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Base font size for all body text (paragraphs) */
-/* This keeps headings and navbar untouched */
-p, 
-.marketing p, 
-.feature-item p, 
-.carousel-caption p, 
-#footer p {
-    font-size: 1.1rem;     /* Good default for desktop */
-    line-height: 1.75;     /* Better readability */
-}
-
-/* === MOBILE OPTIMIZATION === */
-/* Make paragraphs noticeably larger on phones and small tablets */
-@media (max-width: 767px) {
-    p, 
-    .marketing p, 
-    .feature-item p, 
-    .carousel-caption p, 
-    #footer p {
-        font-size: 1.25rem !important;   /* Bigger on mobile */
-        line-height: 1.8;
-    }
-    
-    /* Optional: add a bit more space between paragraphs on mobile */
-    p {
-        margin-bottom: 1.2rem;
-    }
-}
-
-/* Allow hero banner to span entire screen width */
-.hero {
-    margin-left: calc(-50vw + 50%);
-    padding-left: 2vw;
-}
-</style>
-
-
-   </head>
-   <body>
-      <div class="container-fluid">
-          <!-- <header class="jumbotron subhead" id="overview">-->
-            <!-- <p class="lead"> Ben-Gurion University of the Negev </p>-->
-           <!--  <h1>Fait Lab</h1>-->
-         </header>
-         <div class="masthead">
-            <div class="navbar">
-              
-              
-<!-- Hero Banner with Background Image -->
-<section class="hero" style="
-  background-image: url('images/the grape.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 15vh;
-  min-height: 150px;
-  position: relative;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;   <!--Changed: aligns content to LEFT instead of center -->
-  <!--padding-left: 200px;              <!--Small indent from left edge change to 3% or 20px for closer to edge-->
-">
-  <!-- Dark Overlay (keep or adjust alpha as before) -->
-  <div class="hero-overlay" style="
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  "></div>
-
-  <!-- Text Content moved to left, no extra padding -->
-  <div class="hero-content" style="
-    position: relative;
-    z-index: 2;
-    padding: 0;                     <!-- Removed all padding -->
-    margin-left: 8%;                 <!-- No left margin -->
-    max-width: 50%;                 <!-- Optional: prevents text from stretching too wide on large screens -->
-    text-align: left;               <!-- Explicit left alignment -->
-  ">
-    <h1 style="
-      font-size: 3.5rem;
-      margin: 0 0 10px 0;          <!-- Minimal bottom margin only-->
-      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
-    ">Fait Lab</h1>
-    
-    <h2 style="
-      font-size: 1.8rem;
-      margin: 0;
-      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
-    ">
-      Ben-Gurion University of the Negev, Sede Boqer Campus<br>
-      
-    </h2>
-    
-    <!-- Optional subtitle ??? keep or remove -->
-    <p style="
-      font-size: 1rem;
-      margin: 10px 0 0 0;
-    ">Research in Dryland Agriculture, Viticulture, Biotechnology & Sustainable Development</p>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Research | Fait Lab</title>
+<meta name="description" content="Research at the Fait Lab, Ben-Gurion University of the Negev">
+<meta name="theme-color" content="#3f1022">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fait Lab">
+<meta property="og:title" content="Research | Fait Lab">
+<meta property="og:description" content="Research at the Fait Lab, Ben-Gurion University of the Negev">
+<link rel="icon" href="assets/img/t-generic-logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Fait Lab home">
+      <img src="assets/img/t-generic-logo.jpg" width="40" height="40" alt="">
+      <span class="brand-text"><span class="brand-name">Fait Lab</span><span class="brand-sub">Ben-Gurion University of the Negev</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li><li><a href="people.html">People</a></li><li><a href="research.html" aria-current="page">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="news.html">News</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section class="banner" style="background-image:url('assets/img/the-grape.jpg')">
+  <div class="wrap">
+    <span class="eyebrow">Research</span>
+    <h1>Fait Lab</h1>
+    <p class="banner-uni">Ben-Gurion University of the Negev, Sede Boqer Campus</p>
+    <p class="banner-tag">Research in Dryland Agriculture, Viticulture, Biotechnology &amp; Sustainable Development</p>
   </div>
 </section>
+<main id="main">
+<div class="page"><div class="wrap"><div class="page-layout">
+<aside class="toc" aria-label="Sections"><p class="toc-title">On this page</p><ul><li><a href="#overview">General Overview</a></li><li><a href="#focus">Research Focus</a></li><li><a class="sub" href="#systems">Plant Systems Biology &amp; Metabolomics</a></li><li><a class="sub" href="#viticulture">Desert Viticulture &amp; Wine Science</a></li><li><a class="sub" href="#seed">Seed Biology &amp; Crop Improvement</a></li><li><a href="#facilities">Research Facilities</a></li><li><a class="sub" href="#core">Metabolomics &amp; Bioinformatics Core</a></li><li><a class="sub" href="#growth">Controlled Growth &amp; Field Research Stations</a></li><li><a class="sub" href="#enology">Viticulture &amp; Enology Unit</a></li></ul></aside>
+<div>
+<section class="block" id="overview">
+  <h2 class="block-title"><small>Research</small>General Overview</h2>
+  <p class="lead">Professor Aaron Fait's research at Ben-Gurion University focuses on the metabolic networks of plants, specifically how they adapt to environmental stress in arid and semi-arid regions. His lab bridges fundamental biochemistry with practical agricultural solutions to improve crop yield and nutritional value in a changing climate.</p>
+</section>
 
+<section class="block" id="focus">
+  <h2 class="block-title"><small>Three themes</small>Research Focus</h2>
+  <article class="topic" id="systems">
+  <div class="topic-media contain"><img src="assets/img/gc-ms-lc-ms-sm.jpg" srcset="assets/img/gc-ms-lc-ms-sm.jpg 900w, assets/img/gc-ms-lc-ms.jpg 1800w" sizes="(max-width: 980px) 100vw, 860px" width="1800" height="547" alt="GC-MS and LC-MS instruments" loading="lazy" decoding="async"></div>
+  <div class="topic-body">
+    <h3>Plant Systems Biology &amp; Metabolomics</h3>
+    
+    <ul class="points"><li><b>Integrated Omics:</b> Combining metabolomics, transcriptomics, and flux analysis to map the regulatory networks of plant metabolism under shifting environments.</li><li><b>Abiotic Stress Mechanisms:</b> Investigating how plants perceive and signal responses to extreme heat, drought, and salinity, focusing on metabolic acclimation and water-use efficiency (WUE).</li><li><b>Resource Partitioning:</b> Analyzing how environmental stress reconfigures the distribution of carbon and nitrogen between plant defense and productivity in desert ecosystems.</li></ul>
+  </div>
+</article>
+  <article class="topic" id="viticulture">
+  <div class="topic-media"><img src="assets/img/desert-vineyard-sm.jpg" srcset="assets/img/desert-vineyard-sm.jpg 900w, assets/img/desert-vineyard.jpg 1394w" sizes="(max-width: 980px) 100vw, 860px" width="1394" height="697" alt="Vineyard in the desert" loading="lazy" decoding="async"></div>
+  <div class="topic-body">
+    <h3>Desert Viticulture &amp; Wine Science</h3>
+    
+    <ul class="points"><li><b>Berry Metabolism:</b> Studying the impact of climate change, specifically heat and water deficit, on the biochemical composition and quality of wine grapes.</li><li><b>Precision Viticulture:</b> Exploring canopy management and regulated deficit irrigation (RDI) to optimize the interaction between genetics (root-scion) and the desert “terroir.”</li><li><b>Enological Potential:</b> Bridging the gap between field physiology and wine quality, identifying metabolic markers that define the aromatic and phenolic profiles of desert-grown grapes.</li></ul>
+  </div>
+</article>
+  <article class="topic" id="seed">
+  <div class="topic-media contain"><img src="assets/img/aaron-fait-pathway.jpg" width="512" height="512" alt="Metabolic pathway illustration" loading="lazy" decoding="async"></div>
+  <div class="topic-body">
+    <h3>Seed Biology &amp; Crop Improvement</h3>
+    
+    <ul class="points"><li><b>Developmental Networks:</b> Deciphering the metabolic pathways governing seed maturation and germination, particularly in habitats with low or discontinuous rainfall.</li><li><b>Natural Variation:</b> Utilizing the genetic diversity of wild ancestors and introgression lines (e.g., tomato) to identify traits for enhanced nutritional value and yield.</li><li><b>Life-Cycle Connectivity:</b> Investigating how the metabolic status of the seed influences subsequent plant vigor and fruit traits under stressful conditions.</li></ul>
+  </div>
+</article>
+</section>
 
-
-            <div class="navbar">
-               <div class="navbar-inner">
-                  <div class="container-fluid">
-                     <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="people.html">People</a></li>
-                        <li class="active"><a href="#">Research</a></li>
-                        <li><a href="publications.html">Publications</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="teaching.html">Teaching</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <hr>
-         <div class="row-fluid">
-            <div class="span3 bs-docs-sidebar" id="navparent">
-               <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
-                  <li><a href="#statemet"> General Overview </a></li>
-                  <li><a href="#nano"> Research Fous </a></li>
-                  <li><a class="subhead" href="#Penatibus"> Plant Systems Biology & Metabolomics </a></li>
-                  <li><a class="subhead" href="#QuamIdLeo"> Desert Viticulture & Wine Science  </a></li>
-                  <li><a class="subhead" href="#Ullamcorper"> Seed Biology & Crop Improvement </a></li>
-                  <li><a href="#Facilisis">Research Facilities</a></li>
-                  <li><a class="subhead" href="#Volutpat"> Metabolomics & Bioinformatics Core </a></li>
-                  <li><a class="subhead" href="#ElementumTempus"> Controlled Growth & Field Research Stations </a></li>
-                  <li><a class="subhead" href="#FacilisisMagna"> Viticulture & Enology Unit </a></li>
-               </ul>
-            </div>
-            <div class="span8 offset1">
-               <section id="statemet">
-                  <div class="page-header">
-                     <h3>General Overview</h3>
-                     <hr>
-                     <p>Professor Aaron Fait's research at Ben-Gurion University focuses on the metabolic networks of plants, specifically how they adapt to environmental stress in arid and semi-arid regions. 
-                     His lab bridges fundamental biochemistry with practical agricultural solutions to improve crop yield and nutritional value in a changing climate.
-                     </p>
-                  </div>
-               </section>
-               <section id="nano">
-                  <div class="page-header">
-                     <h3>Research Fous</h3>
-                  </div>
-                  <div class="row-fluid">
-                     <div class="span12">
-                        <section id="Penatibus">
-                           <h4>Plant Systems Biology & Metabolomics</h4>
-                           <br/>
-                           <img src="images/GC-MS-LC-MS.jpg" class="float-right" alt="Penatibus"/>
-                           <p>
-                             Integrated Omics: Combining metabolomics, transcriptomics, and flux analysis to map the regulatory networks of plant metabolism under shifting environments.
-                             Abiotic Stress Mechanisms: Investigating how plants perceive and signal responses to extreme heat, drought, and salinity, focusing on metabolic acclimation and water-use efficiency (WUE).
-                             Resource Partitioning: Analyzing how environmental stress reconfigures the distribution of carbon and nitrogen between plant defense and productivity in desert ecosystems.
- 
-                           </p>
-                        </section>
-                        <hr>
-                        <section id="QuamIdLeo">
-                           <h4>Desert Viticulture & Wine Science</h4>
-                           <br/>
-                           <img src="images/desert-vineyard.jpg" class="float-right" alt="Quam Id Leo"/>
-                           <p>
-                             Berry Metabolism: Studying the impact of climate change-specifically heat and water deficit on the biochemical composition and quality of wine grapes.
-                             Precision Viticulture: Exploring canopy management and regulated deficit irrigation (RDI) to optimize the interaction between genetics (root-scion) and the desert "terroir."
-                             Enological Potential: Bridging the gap between field physiology and wine quality, identifying metabolic markers that define the aromatic and phenolic profiles of desert-grown grapes.
-                           </p>
-                        </section>
-                        <hr>
-                        <section id="Ullamcorper">
-                           <h4>Seed Biology & Crop Improvement</h4>
-                           <br/>
-                           <img src="images/Aaron-Fait-Pathway.jpg" class="float-right" alt="Ullamcorper"/>
-                           <p>
-                             Developmental Networks: Deciphering the metabolic pathways governing seed maturation and germination, particularly in habitats with low or discontinuous rainfall.
-                             Natural Variation: Utilizing the genetic diversity of wild ancestors and introgression lines (e.g., tomato) to identify traits for enhanced nutritional value and yield.
-                             Life-Cycle Connectivity: Investigating how the metabolic status of the seed influences subsequent plant vigor and fruit traits under stressful conditions.
-                           </p>
-                        </section>
-                     </div>
-                  </div>
-               </section>
-               <hr>
-               <section id="ResearchFacilities">
-                  <div class="page-header">
-                     <h3>Research Facilities</h3>
-                  </div>
-                  <div class="row-fluid">
-                     <div class="span12">
-                        <section id="Volutpat">
-                           <h4>Metabolomics & Bioinformatics Core</h4>
-                           <br/>
-                           <img src="images/bioinformatics-core-pipeline.jpg" class="float-right" alt="Volutpat"/>
-                           <p>
-                             This central unit provides the high-throughput analytical and computational backbone for the lab's systems biology research.
-                             Mass Spectrometry Suite: Equipped with GC-MS and LC-MS/MS (including UHPLC-HRMS) for the precise identification and quantification of primary and secondary metabolites, from simple sugars to complex phenolics.
-                             Data Integration & Modeling: A specialized computational infrastructure for processing "big data," utilizing network analysis and multi-omics integration to map the regulatory nodes of plant metabolism under stress.
-                           </p>
-                        </section>
-                        <hr>
-                        <section id="ElementumTempus">
-                           <h4>Controlled Growth & Field Research Stations</h4>
-                           <br/>
-                           <img src="images/growth room-chamber.jpg" class="float-right" alt="Elementum Tempus"/>
-                           <p>
-                             Located within the Jacob Blaustein Institutes for Desert Research (BIDR), these facilities allow for the precise manipulation of environmental variables.
-                             Environmental Chambers: Advanced climate-controlled rooms used to simulate heat waves, drought, and salinity to identify physiological "tipping points."
-                             Plant Physiology Suites: Equipped with tools for measuring gas exchange, stomatal conductance, and chlorophyll fluorescence to assess real-time plant stress responses.
-                           </p>
-                        </section>
-                        <hr>
-                        <section id="FacilisisMagna">
-                           <h4>Viticulture & Enology Unit</h4>
-                           <br/>
-                           <img src="images/winery.jpg" class="float-right" alt="Elementum Tempus"/>
-                           <p>
-                             Dedicated to the study of grapevine resilience and wine quality in arid environments, this facility bridges field physiology with chemical analysis.
-                             Experimental Vineyards: Field sites located across the Negev Desert designed for studying canopy management, regulated deficit irrigation (RDI), and rootstock-scion interactions in extreme climates.
-                             Wine Quality Lab: A specialized space for the biochemical characterization of berries and wine, focusing on the aromatic and phenolic profiles (terroir markers) that define desert-grown vintages.
-                           </p>
-                        </section>
-                     </div>
-                  </div>
-               </section>
-               <hr>
-            </div>
-         </div>
+<section class="block" id="facilities">
+  <h2 class="block-title"><small>Infrastructure</small>Research Facilities</h2>
+  <article class="topic" id="core">
+  <div class="topic-media"><img src="assets/img/bioinformatics-core-pipeline-sm.jpg" srcset="assets/img/bioinformatics-core-pipeline-sm.jpg 900w, assets/img/bioinformatics-core-pipeline.jpg 1800w" sizes="(max-width: 980px) 100vw, 860px" width="1800" height="966" alt="Metabolomics and bioinformatics pipeline" loading="lazy" decoding="async"></div>
+  <div class="topic-body">
+    <h3>Metabolomics &amp; Bioinformatics Core</h3>
+    <p class="topic-intro">This central unit provides the high-throughput analytical and computational backbone for the lab's systems biology research.</p>
+    <ul class="points"><li><b>Mass Spectrometry Suite:</b> Equipped with GC-MS and LC-MS/MS (including UHPLC-HRMS) for the precise identification and quantification of primary and secondary metabolites, from simple sugars to complex phenolics.</li><li><b>Data Integration &amp; Modeling:</b> A specialized computational infrastructure for processing “big data,” utilizing network analysis and multi-omics integration to map the regulatory nodes of plant metabolism under stress.</li></ul>
+  </div>
+</article>
+  <article class="topic" id="growth">
+  <div class="topic-media"><img src="assets/img/growth-room-chamber-sm.jpg" srcset="assets/img/growth-room-chamber-sm.jpg 900w, assets/img/growth-room-chamber.jpg 1800w" sizes="(max-width: 980px) 100vw, 860px" width="1800" height="1384" alt="Growth room chamber" loading="lazy" decoding="async"></div>
+  <div class="topic-body">
+    <h3>Controlled Growth &amp; Field Research Stations</h3>
+    <p class="topic-intro">Located within the Jacob Blaustein Institutes for Desert Research (BIDR), these facilities allow for the precise manipulation of environmental variables.</p>
+    <ul class="points"><li><b>Environmental Chambers:</b> Advanced climate-controlled rooms used to simulate heat waves, drought, and salinity to identify physiological “tipping points.”</li><li><b>Plant Physiology Suites:</b> Equipped with tools for measuring gas exchange, stomatal conductance, and chlorophyll fluorescence to assess real-time plant stress responses.</li></ul>
+  </div>
+</article>
+  <article class="topic" id="enology">
+  <div class="topic-media"><img src="assets/img/winery-sm.jpg" srcset="assets/img/winery-sm.jpg 900w, assets/img/winery.jpg 1800w" sizes="(max-width: 980px) 100vw, 860px" width="1800" height="528" alt="Experimental winery" loading="lazy" decoding="async"></div>
+  <div class="topic-body">
+    <h3>Viticulture &amp; Enology Unit</h3>
+    <p class="topic-intro">Dedicated to the study of grapevine resilience and wine quality in arid environments, this facility bridges field physiology with chemical analysis.</p>
+    <ul class="points"><li><b>Experimental Vineyards:</b> Field sites located across the Negev Desert designed for studying canopy management, regulated deficit irrigation (RDI), and rootstock-scion interactions in extreme climates.</li><li><b>Wine Quality Lab:</b> A specialized space for the biochemical characterization of berries and wine, focusing on the aromatic and phenolic profiles (terroir markers) that define desert-grown vintages.</li></ul>
+  </div>
+</article>
+</section>
+</div>
+</div></div></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2>Contact Information</h2>
+        <p><b>Office Hours:</b> Sunday-Thursday (8.00am - 5.00pm)</p>
+        <p><b>Phone:</b> <a href="tel:+97286596837">+97286596837</a></p>
+        <p><b>Email:</b> <a href="mailto:fait@bgu.ac.il">fait@bgu.ac.il</a></p>
       </div>
-      <footer id="footer">
-         <div class="container-fluid">
-            <div class="row-fluid">
-               <div class="span5">
-                  <h3>Contact Information</h3>
-                  <p><b>Office Hours: </b>Sunday-Thursday (8.00am - 5.00pm)</p>
-                  <p><b>Phone: </b>+97286596837</p>
-                  <p><b>Cell: </b>+97286596837</p>
-                  <a href="mailto:fait@bgu.ac.il">Email</a>
-               </div>
-               <div class="span2">
-                  <img src="thumbs/generic-logo.JPG" alt="Fait Lab Logo" style="max-width: 200px; height: auto;" class="img-responsive"/>
-               </div>
-               <div class="span5">
-                  <h3>Address</h3>
-                  <p>French Associates Institute for Agriculture & Biotechnology of Drylands<br>
-                     Blaustein Institutes for Desert Research, Ben-Gurion University of the Negev<br>
-                     Midreshet Ben Gurion, Sde Boker<br>
-                     Israel 8499000
-                  </p>
-                  <a href="https://maps.app.goo.gl/THDbeEdi3e9BvFJL7">Show Map</a>
-               </div>
-            </div>
-            <!-- Single Line Credits - Fixed Encoding -->
-            <div class="row-fluid" style="margin-top: 40px; border-top: 1px solid #ddd; padding-top: 25px;">
-               <div class="span12 text-center">
-                  <p style="margin: 0; font-size: 0.92rem; color: #666;">
-                     &copy; Aaron Fait [All rights reserved] &middot; 
-                     Designed using Bootstrap 4.0 &middot; 
-                     Hosted on GitHub <i class="fa fa-github" style="vertical-align: middle;"></i> &middot; 
-                     Maintained by the lab &middot; 
-                     Design: HTML5 UP
-                  </p>
-               </div>
-            </div>
-      </footer>
-
-      <!-- Le javascript
-         ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="js/jquery-1.9.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script>
-         $(document).ready(function() {
-             $(document.body).scrollspy({
-                 target: "#navparent"
-             });
-         });
-         
-      </script>
-   </body>
+      <div class="footer-logo">
+        <img src="assets/img/t-generic-logo.jpg" width="128" height="128" alt="Fait Lab logo: From the Desert to the Bottle" loading="lazy">
+      </div>
+      <div>
+        <h2>Address</h2>
+        <p>French Associates Institute for Agriculture &amp; Biotechnology of Drylands<br>
+        Blaustein Institutes for Desert Research, Ben-Gurion University of the Negev<br>
+        Midreshet Ben Gurion, Sde Boker<br>
+        Israel 8499000</p>
+        <p class="footer-links"><a href="https://maps.app.goo.gl/THDbeEdi3e9BvFJL7">Show Map</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; Aaron Fait [All rights reserved] &middot; Hosted on GitHub <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> &middot; Maintained by the lab
+    </div>
+  </div>
+</footer>
+<script src="assets/js/site.js" defer></script>
+</body>
 </html>

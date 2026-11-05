@@ -1,352 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <title>Fait Lab - Home</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Research Lab, Home, Ben-Gurion University of the Negev">
-      <meta name="author" content="">
-      <!-- Le styles -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-      <link href="css/theme.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      
-      
-<style>
-/* Remove default browser spacing */
-body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Base font size for all body text (paragraphs) */
-/* This keeps headings and navbar untouched */
-p, 
-.marketing p, 
-.feature-item p, 
-.carousel-caption p, 
-#footer p {
-    font-size: 1.1rem;     /* Good default for desktop */
-    line-height: 1.75;     /* Better readability */
-}
-
-/* === MOBILE OPTIMIZATION === */
-/* Make paragraphs noticeably larger on phones and small tablets */
-@media (max-width: 767px) {
-    p, 
-    .marketing p, 
-    .feature-item p, 
-    .carousel-caption p, 
-    #footer p {
-        font-size: 1.25rem !important;   /* Bigger on mobile */
-        line-height: 1.8;
-    }
-    
-    /* Optional: add a bit more space between paragraphs on mobile */
-    p {
-        margin-bottom: 1.2rem;
-    }
-}
-
-/* Allow hero banner to span entire screen width */
-.hero {
-    margin-left: calc(-50vw + 50%);
-    padding-left: 2vw;
-}
-</style>
-
-
-
-   </head>
-   <body>
-      <div class="container-fluid">
-          <!-- <header class="jumbotron subhead" id="overview">-->
-            <!-- <p class="lead"> Ben-Gurion University of the Negev </p>-->
-           <!--  <h1>Fait Lab</h1>-->
-         </header>
-         <div class="masthead">
-            <div class="navbar">
-              
-              
-<!-- Hero Banner with Background Image -->
-<section class="hero" style="
-  background-image: url('images/the grape.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 15vh;
-  min-height: 150px;
-  position: relative;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;   <!--Changed: aligns content to LEFT instead of center -->
-  <!--padding-left: 200px;              <!--Small indent from left edge change to 3% or 20px for closer to edge-->
-">
-  <!-- Dark Overlay (keep or adjust alpha as before) -->
-  <div class="hero-overlay" style="
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  "></div>
-
-  <!-- Text Content moved to left, no extra padding -->
-  <div class="hero-content" style="
-    position: relative;
-    z-index: 2;
-    padding: 0;                     <!-- Removed all padding -->
-    margin-left: 8%;                 <!-- No left margin -->
-    max-width: 50%;                 <!-- Optional: prevents text from stretching too wide on large screens -->
-    text-align: left;               <!-- Explicit left alignment -->
-  ">
-    <h1 style="
-      font-size: 3.5rem;
-      margin: 0 0 10px 0;          <!-- Minimal bottom margin only-->
-      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
-    ">Fait Lab</h1>
-    
-    <h2 style="
-      font-size: 1.8rem;
-      margin: 0;
-      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
-    ">
-      Ben-Gurion University of the Negev, Sede Boqer Campus<br>
-      
-    </h2>
-    
-    <!-- Optional subtitle keep or remove -->
-    <p style="
-      font-size: 1rem;
-      margin: 10px 0 0 0;
-    ">Research in Dryland Agriculture, Viticulture, Biotechnology & Sustainable Development</p>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fait Lab - Home</title>
+<meta name="description" content="Fait Lab, Research Lab, Home, Ben-Gurion University of the Negev">
+<meta name="theme-color" content="#3f1022">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fait Lab">
+<meta property="og:title" content="Fait Lab - Home">
+<meta property="og:description" content="Fait Lab, Research Lab, Home, Ben-Gurion University of the Negev">
+<link rel="preload" as="image" href="assets/img/midreshet-ben-gurion-canyon-sm.jpg" imagesrcset="assets/img/midreshet-ben-gurion-canyon-sm.jpg 900w, assets/img/midreshet-ben-gurion-canyon.jpg 1800w" imagesizes="100vw">
+<link rel="icon" href="assets/img/t-generic-logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Fait Lab home">
+      <img src="assets/img/t-generic-logo.jpg" width="40" height="40" alt="">
+      <span class="brand-text"><span class="brand-name">Fait Lab</span><span class="brand-sub">Ben-Gurion University of the Negev</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li><li><a href="people.html">People</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="news.html">News</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero" data-slideshow aria-roledescription="carousel" aria-label="Lab photos">
+  <ul class="hero-slides">
+    <li class="hero-slide is-active" data-caption="Welcome to the Ben-Gurion University of the Negev, Professor Aaron Fait Research Laboratory"><img src="assets/img/midreshet-ben-gurion-canyon.jpg" srcset="assets/img/midreshet-ben-gurion-canyon-sm.jpg 900w, assets/img/midreshet-ben-gurion-canyon.jpg 1800w" sizes="100vw" width="1800" height="607" alt="" fetchpriority="high"></li><li class="hero-slide" data-caption="Ramon Vineyard in the heart of the Negev desert"><img data-src="assets/img/ramon-vineyard.jpg" data-srcset="assets/img/ramon-vineyard-sm.jpg 900w, assets/img/ramon-vineyard.jpg 1582w" sizes="100vw" width="1582" height="472" alt=""></li><li class="hero-slide" data-caption="Avdat National park ancient city ruin among the 5 ruins"><img data-src="assets/img/avdat1.jpg" data-srcset="assets/img/avdat1-sm.jpg 900w, assets/img/avdat1.jpg 1142w" sizes="100vw" width="1142" height="394" alt=""></li><li class="hero-slide" data-caption="Routine wine tasting time"><img data-src="assets/img/wine-montage.jpg" width="579" height="259" alt=""></li><li class="hero-slide" data-caption="The grape bunch"><img data-src="assets/img/the-grape.jpg" data-srcset="assets/img/the-grape-sm.jpg 900w, assets/img/the-grape.jpg 1800w" sizes="100vw" width="1800" height="338" alt=""></li>
+  </ul>
+  <div class="hero-content">
+    <div class="wrap">
+      <h1>Fait Lab</h1>
+      <p class="banner-uni">Ben-Gurion University of the Negev, Sede Boqer Campus</p>
+      <p class="banner-tag">Research in Dryland Agriculture, Viticulture, Biotechnology &amp; Sustainable Development</p>
+      <div class="hero-caption-row">
+        <p class="hero-caption" aria-live="polite">Welcome to the Ben-Gurion University of the Negev, Professor Aaron Fait Research Laboratory</p>
+        <div class="hero-controls">
+          <div class="hero-dots"><button class="hero-dot is-active" type="button" aria-label="Show slide 1"></button><button class="hero-dot" type="button" aria-label="Show slide 2"></button><button class="hero-dot" type="button" aria-label="Show slide 3"></button><button class="hero-dot" type="button" aria-label="Show slide 4"></button><button class="hero-dot" type="button" aria-label="Show slide 5"></button></div>
+          <button class="hero-btn" type="button" data-prev aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button class="hero-btn" type="button" data-next aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
+<section class="section">
+  <div class="wrap">
+    <span class="kicker">About the lab</span>
+    <p class="lead">The Fait Lab at Ben-Gurion University of the Negev investigates the metabolic networks that drive plant adaptation to arid environments. By integrating metabolomics, systems biology, and functional genomics, our research bridges fundamental biochemistry with sustainable agricultural solutions.</p>
+    <div class="pillars">
+      <div class="pillar"><div class="dot"></div><h3>Desert Viticulture</h3><p>We explore how extreme heat and water stress shape the chemical complexity of grapes and wine.</p></div>
+      <div class="pillar"><div class="dot"></div><h3>Seed Metabolism</h3><p>We profile the regulatory networks governing development, germination, and nutritional quality.</p></div>
+      <div class="pillar"><div class="dot"></div><h3>The Negev as a Natural Laboratory</h3><p>Using the Negev Desert as a natural laboratory, we aim to develop climate-resilient crops and enhance food security in the face of global environmental change.</p></div>
+    </div>
+  </div>
+</section>
 
-               <div class="navbar-inner">
-                  <div class="container-fluid">
-                     <ul class="nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="people.html">People</a></li>
-                        <li><a href="research.html">Research</a></li>
-                        <li><a href="publications.html">Publications</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="teaching.html">Teaching</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row-fluid">
-            <div class="span12">
-               <div id="main-carousel" class="carousel slide">
-                  <div class="carousel-inner"> 
-                     <div class="item active">
-                        <img src="images/Midreshet Ben Gurion Canyon.jpg" class="carousel-image" alt="">                      
-                        <div class="carousel-caption">
-                           <h4>Welcome to the Ben-Gurion University of the Negev, Professor Aaron Fait Research Laboratory</h4>
-                           <!-- -->
-                           <p></p>
-                        </div>
-                     </div>
-                     <div class="item">
-                        <img src="images/ramon vineyard.jpg" class="carousel-image" alt="">
-                        <div class="carousel-caption">
-                           <h4>Ramon Vineyard in the heart of the Negev desert</h4>
-                           <p></p>
-                        </div>
-                     </div>
-                     <div class="item">
-                        <img src="images/Avdat1.jpg" class="carousel-image" alt="">
-                        <div class="carousel-caption">
-                           <h4>Avdat National park ancient city ruin among the 5 ruins</h4>
-                           <p></p>
-                        </div>
-                     </div>
-                     <div class="item">
-                        <img src="images/wine_montage.jpg" class="carousel-image" style = "auto" alt="">
-                        <div class="carousel-caption">
-                           <h4>Routine wine tasting time</h4>
-                           <p></p>
-                           </div>
-                     </div>
-                     <div class="item">
-                        <img src="images/the grape.jpg" class="carousel-image" alt="">
-                        <div class="carousel-caption">
-                           <h4>The grape bunch</h4>
-                           <p></p>
-                        </div>
-                     </div>
-                  </div>
-                  <a class="left carousel-control" href="#main-carousel" data-slide="prev"><</a>
-                  <a class="right carousel-control" href="#main-carousel" data-slide="next">></a>
-               </div>
-            </div>
-         </div>
-         <hr>
-         <div class="container-fluid">
-            <div class="row-fluid marketing">
-               <div class="span12">
-                  <p>
-                     The Fait Lab at Ben-Gurion University of the Negev investigates the metabolic networks that drive plant adaptation to arid environments. By integrating metabolomics, systems biology, and functional genomics, our research bridges fundamental biochemistry with sustainable agricultural solutions.
-                     Our work focuses on two primary pillars: Desert Viticulture, where we explore how extreme heat and water stress shape the chemical complexity of grapes and wine; and Seed Metabolism, where we profile the regulatory networks governing development, germination, and nutritional quality. 
-                     Using the Negev Desert as a natural laboratory, we aim to develop climate-resilient crops and enhance food security in the face of global environmental change.
- 
-                  </p>
-                  <br/>
-               </div>
-               <div class="row-fluid">
-                  <hr>
-                  <h2 class="centered">Recent News</h2>
-                  <hr>
-               </div>
-               <div class="span4 feature-item">
-                  <h5> <span class="date"> Sept 7, 2022 </span> </h5>
-                  <h4 class="feature-heading">
-                     <a href="https://www.nytimes.com/2022/09/07/world/middleeast/israel-negev-desert-wine.html">
-                     Desert Winemaking 'Sounds Absurd,' but Israeli Vineyards in Negev Show the Way
-                     </a>
-                     <br/>
-                  </h4>
-                  <hr>
-                  <div class="centered">
-                     <a href="https://www.nytimes.com/2022/09/07/world/middleeast/israel-negev-desert-wine.html">
-                     <img src="thumbs/Aaron-Fait_Vineyard_1200.jpg" alt=""></a>
-                  </div>
-                  <hr>
-                  <p>
-                    As vintners around the world battle extreme heat and climate change, the pioneers producing wine in Israel's arid south are testing ideas that might soon find global application.
-                     Read more <a href="https://www.nytimes.com/2022/09/07/world/middleeast/israel-negev-desert-wine.html">here</a>.
-                  </p>
-                  <br/>
-                  <br/>
-               </div>
-               <div class="span4 feature-item">
-                  <h5> <span class="date">Sept 26, 2019</span> </h5>
-                  <h4 class="feature-heading">
-                     <a href="https://www.nytimes.com/2019/09/21/climate/wine-climate-change-israel.html">
-                     The Future of Wine: Very, Very Dry
-                     </a>
-                  </h4>
-                  <hr>
-                  <div class="centered">
-                     <a href="https://www.nytimes.com/2019/09/21/climate/wine-climate-change-israel.html">
-                     <img src="thumbs/Dry-Wine.jpg" alt="">
-                     </a>
-                  </div>
-                  <hr>
-                  <p>
-                     To study innovations in winemaking, Dr. Fait works with several Negev wineries, as well as European researchers like Enrico Peterlunger,... 
-                  Read from the New York Times news 
-                     <a href="https://www.nytimes.com/2019/09/21/climate/wine-climate-change-israel.html">here</a>.
-                  </p>
-                  <br/>
-               </div>
-               <div class="row-fluid">
-                  <div class="span4 feature-item">
-                     <h5> <span class="date">Feb 18, 2026</span> </h5>
-                     <h4 class="feature-heading">
-                        <a href="https://americansforbgu.org/negev-desert-wines/">
-                        BGU and the Rise of Growing World Class Wines in the Negev
-                        <br/>
-                        <br/>
-                        </a>
-                     </h4>
-                     <hr>
-                     <div class="centered">
-                        <a href="https://pbs.twimg.com/card_img/2031828293037801473/YmsGY6G5?format=jpg&name=small">
-                        <img src="thumbs/Jerusalem-Post.jpg" alt=""></a>
-                     </div>
-                     <hr>
-                     <p> 
-                        The Jerusalem Post-Ben-Gurion University of the Negev (BGU) is playing a central role in one of Israel's most daring agricultural revolutions: growing world-class wine in the desert. 
-                        Through advanced research and innovation, BGU faculty are helping transform the Negev into a thriving wine region-once thought impossible due to its extreme heat, arid climate, and saline soils. 
-                        Read it <a href="https://americansforbgu.org/negev-desert-wines/">here</a>.
-                     </p>
-                     <br/>					
-                  </div>
-               </div>
-               <hr>
-            </div>
-            <div class="row-fluid">
-               <div class="span4 feature-item">
-                  <h4 class="feature-heading"><a href="https://www.smithsonianmag.com/travel/wines-israel-negev-desert-represent-future-viticulture-180974590/">Why Wines From Israel's Negev Desert May Represent the Future of Viticulture</a></h4>
-                  <hr>
-                  <div class="centered">
-                     <a href="https://th-thumbnailer.cdn-si-edu.com/eVfCzq8ki6p7HQvGq_9LkcvsNfE=/fit-in/1072x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/40/7f/407f53f6-6ae3-40c8-949f-4fd69c0a14bc/wine_montage.jpg"><img src="thumbs/ivanova-crop.jpg" alt=""></a>
-                  </div>
-                  <hr>
-                  <p>Fait runs an experimental vineyard just up the road from Nana winery and is working to develop approaches that might one day benefit Europe's winemakers. <a href="https://www.smithsonianmag.com/travel/wines-israel-negev-desert-represent-future-viticulture-180974590/">here</a>. </p>
-                  <br/>
-               </div>
-               <div class="span4 feature-item">
-                  <h4 class="feature-heading"><a href="https://www.facebook.com/BenGurionUniversity/posts/10167923245895077/">Professor Aaron Fait was one of the 48 Israelis list of The ISRAEL21c in April 2023</a></h4>
-                  <hr>
-                  <div class="centered">
-                     <a href="https://members.smoove.io/lk0mnr4ndf8nb7newzggnjbijcx3ebn1onpggneqbnbs8nonwebcbbwzo.ashx"><img src="thumbs/Aaron-48.jpg" alt=""></a>
-                  </div>
-                  <hr>
-                  <p>Read more <a href="https://unsplash.com/photos/lQGJCMY5qcM">here</a> </p>
-               </div>
-               <div class="span4 feature-item">
-                  <h4 class="feature-heading"><a href="https://www.youtube.com/watch?v=mEvZZ_sg-wQ">The research focuses on improving crop nutritional value and yield leveraging desert agriculture as a model for Sustainable Solutions.<br/><br/><br/></a></h4>
-                  <hr>
-                  <div class="centered">
-                     <a href="https://www.youtube.com/watch?v=mEvZZ_sg-wQ"><img src="thumbs/Aaron-research.jpg" alt=""></a>
-                  </div>
-                  <hr>
-                  <p> Prof. Fait's research focuses on improving crop nutritional value and yield, leveraging desert agriculture as a model for sustainable solutions.
-                  Fait's lab is leading the field of desert viticulture, exploring the unique challenges and opportunities of growing wine grapes in the Negev Desert. Watch more <a href="https://unsplash.com/photos/QCbZ4ASLhM8">here</a>.</p>
-                  <br/>
-                  <br/>
-                  <br/>
-               </div>
-            </div>
-         </div>
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head"><div><span class="kicker">In the media</span><h2>Recent News</h2></div><a href="news.html">All news &rarr;</a></div>
+    <div class="card-grid">
+      <article class="card">
+  <a class="card-media" href="https://americansforbgu.org/negev-desert-wines/" tabindex="-1" aria-hidden="true"><img src="assets/img/t-jerusalem-post.jpg" width="679" height="452" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">Feb 18, 2026</div>
+    <h3><a href="https://americansforbgu.org/negev-desert-wines/">BGU and the Rise of Growing World Class Wines in the Negev</a></h3>
+    <p>The Jerusalem Post-Ben-Gurion University of the Negev (BGU) is playing a central role in one of Israel&#x27;s most daring agricultural revolutions: growing world-class wine in the desert. Through advanced research and innovation, BGU faculty are helping transform the Negev into a thriving wine region, once thought impossible due to its extreme heat, arid climate, and saline soils.</p>
+    <div class="card-foot"><span></span><a class="more" href="https://americansforbgu.org/negev-desert-wines/">Read it &rarr;</a></div>
+  </div>
+</article><article class="card">
+  <div class="card-media"><img src="assets/img/t-aaron-48.jpg" width="900" height="676" alt="" loading="lazy" decoding="async"></div>
+  <div class="card-body">
+    <div class="card-date">April 2023</div>
+    <h3>Professor Aaron Fait was one of the 48 Israelis list of The ISRAEL21c in April 2023</h3>
+    
+  </div>
+</article><article class="card">
+  <a class="card-media" href="https://www.nytimes.com/2022/09/07/world/middleeast/israel-negev-desert-wine.html" tabindex="-1" aria-hidden="true"><img src="assets/img/t-aaron-fait-vineyard-1200.jpg" width="900" height="675" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">Sept 7, 2022</div>
+    <h3><a href="https://www.nytimes.com/2022/09/07/world/middleeast/israel-negev-desert-wine.html">Desert Winemaking &#x27;Sounds Absurd,&#x27; but Israeli Vineyards in Negev Show the Way</a></h3>
+    <p>As vintners around the world battle extreme heat and climate change, the pioneers producing wine in Israel&#x27;s arid south are testing ideas that might soon find global application.</p>
+    <div class="card-foot"><span></span><a class="more" href="https://www.nytimes.com/2022/09/07/world/middleeast/israel-negev-desert-wine.html">Read more &rarr;</a></div>
+  </div>
+</article><article class="card">
+  <a class="card-media" href="https://www.smithsonianmag.com/travel/wines-israel-negev-desert-represent-future-viticulture-180974590/" tabindex="-1" aria-hidden="true"><img src="assets/img/t-ivanova-crop.jpg" width="900" height="675" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">Smithsonian Magazine</div>
+    <h3><a href="https://www.smithsonianmag.com/travel/wines-israel-negev-desert-represent-future-viticulture-180974590/">Why Wines From Israel&#x27;s Negev Desert May Represent the Future of Viticulture</a></h3>
+    <p>Fait runs an experimental vineyard just up the road from Nana winery and is working to develop approaches that might one day benefit Europe&#x27;s winemakers.</p>
+    <div class="card-foot"><span></span><a class="more" href="https://www.smithsonianmag.com/travel/wines-israel-negev-desert-represent-future-viticulture-180974590/">Read more &rarr;</a></div>
+  </div>
+</article><article class="card">
+  <a class="card-media" href="https://www.nytimes.com/2019/09/21/climate/wine-climate-change-israel.html" tabindex="-1" aria-hidden="true"><img src="assets/img/t-dry-wine.jpg" width="900" height="600" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">Sept 26, 2019</div>
+    <h3><a href="https://www.nytimes.com/2019/09/21/climate/wine-climate-change-israel.html">The Future of Wine: Very, Very Dry</a></h3>
+    <p>To study innovations in winemaking, Dr. Fait works with several Negev wineries, as well as European researchers like Enrico Peterlunger,...</p>
+    <div class="card-foot"><span></span><a class="more" href="https://www.nytimes.com/2019/09/21/climate/wine-climate-change-israel.html">Read from the New York Times &rarr;</a></div>
+  </div>
+</article><article class="card">
+  <a class="card-media" href="https://www.youtube.com/watch?v=mEvZZ_sg-wQ" tabindex="-1" aria-hidden="true"><img src="assets/img/t-aaron-research.jpg" width="299" height="168" alt="" loading="lazy" decoding="async"></a>
+  <div class="card-body">
+    <div class="card-date">Video</div>
+    <h3><a href="https://www.youtube.com/watch?v=mEvZZ_sg-wQ">The research focuses on improving crop nutritional value and yield leveraging desert agriculture as a model for Sustainable Solutions.</a></h3>
+    <p>Prof. Fait&#x27;s research focuses on improving crop nutritional value and yield, leveraging desert agriculture as a model for sustainable solutions. Fait&#x27;s lab is leading the field of desert viticulture, exploring the unique challenges and opportunities of growing wine grapes in the Negev Desert.</p>
+    <div class="card-foot"><span></span><a class="more" href="https://www.youtube.com/watch?v=mEvZZ_sg-wQ">Watch more &rarr;</a></div>
+  </div>
+</article>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2>Contact Information</h2>
+        <p><b>Office Hours:</b> Sunday-Thursday (8.00am - 5.00pm)</p>
+        <p><b>Phone:</b> <a href="tel:+97286596837">+97286596837</a></p>
+        <p><b>Email:</b> <a href="mailto:fait@bgu.ac.il">fait@bgu.ac.il</a></p>
       </div>
-      <footer id="footer">
-         <div class="container-fluid">
-            <div class="row-fluid">
-               <div class="span5">
-                  <h3>Contact Information</h3>
-                  <p><b>Office Hours: </b>Sunday-Thursday (8.00am - 5.00pm)</p>
-                  <p><b>Phone: </b>+97286596837</p>
-                  <p><b>Cell: </b>+97286596837</p>
-                  <a href="mailto:fait@bgu.ac.il">Email</a>
-               </div>
-               <div class="span2">
-                  <img src="thumbs/generic-logo.JPG" alt="Fait Lab Logo" style="max-width: 200px; height: auto;" class="img-responsive"/>
-               </div>
-               <div class="span5">
-                  <h3>Address</h3>
-                  <p>French Associates Institute for Agriculture & Biotechnology of Drylands<br>
-                     Blaustein Institutes for Desert Research, Ben-Gurion University of the Negev<br>
-                     Midreshet Ben Gurion, Sde Boker<br>
-                     Israel 8499000
-                  </p>
-                  <a href="https://maps.app.goo.gl/THDbeEdi3e9BvFJL7">Show Map</a>
-               </div>
-            </div>
-            <!-- Single Line Credits - Fixed Encoding -->
-            <div class="row-fluid" style="margin-top: 40px; border-top: 1px solid #ddd; padding-top: 25px;">
-               <div class="span12 text-center">
-                  <p style="margin: 0; font-size: 0.92rem; color: #666;">
-                     &copy; Aaron Fait [All rights reserved] &middot; 
-                     Designed using Bootstrap 4.0 &middot; 
-                     Hosted on GitHub <i class="fa fa-github" style="vertical-align: middle;"></i> &middot; 
-                     Maintained by the lab &middot; 
-                     Design: HTML5 UP
-                  </p>
-               </div>
-            </div>
-      </footer>
-      <!-- Javascript files -->
-      <script src="js/jquery-1.9.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script> $('#main-carousel').carousel(); </script>
-   </body>
+      <div class="footer-logo">
+        <img src="assets/img/t-generic-logo.jpg" width="128" height="128" alt="Fait Lab logo: From the Desert to the Bottle" loading="lazy">
+      </div>
+      <div>
+        <h2>Address</h2>
+        <p>French Associates Institute for Agriculture &amp; Biotechnology of Drylands<br>
+        Blaustein Institutes for Desert Research, Ben-Gurion University of the Negev<br>
+        Midreshet Ben Gurion, Sde Boker<br>
+        Israel 8499000</p>
+        <p class="footer-links"><a href="https://maps.app.goo.gl/THDbeEdi3e9BvFJL7">Show Map</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; Aaron Fait [All rights reserved] &middot; Hosted on GitHub <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> &middot; Maintained by the lab
+    </div>
+  </div>
+</footer>
+<script src="assets/js/site.js" defer></script>
+</body>
 </html>
